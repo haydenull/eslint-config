@@ -8,6 +8,6 @@ if (!isTsProject) {
 
 module.exports = {
   extends: [
-    isTsProject ? '@haydenull/fabric/eslint/ts' : '@haydenull/fabric/eslint/basic',
+    isTsProject ? './ts' : './basic',
   ]
 }

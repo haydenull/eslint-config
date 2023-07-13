@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     // introduce eslint-recommended and my own rules
-    '@haydenull/fabric/eslint/basic',
+    './basic',
     // disables rules from eslint:recommended which are already handled by TypeScript https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended.ts
     'plugin:@typescript-eslint/eslint-recommended',
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts
@@ -27,6 +27,10 @@ module.exports = {
     },
   ],
   rules: {
+    '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
+    '@typescript-eslint/prefer-ts-expect-error': 'error',
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
+
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
   }

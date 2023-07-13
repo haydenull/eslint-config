@@ -10,7 +10,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    isTsProject ? '@haydenull/fabric/eslint/basic' : '@haydenull/fabric/eslint/ts',
+    isTsProject ? './ts' : './basic',
   ],
   settings: {
     'react': {

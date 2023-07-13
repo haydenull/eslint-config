@@ -9,7 +9,7 @@ if (!isTsProject) {
 module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
-    isTsProject ? '@haydenull/fabric/eslint/basic' : '@haydenull/fabric/eslint/ts',
+    isTsProject ? './ts' : './basic',
   ],
   overrides: [
     {
