@@ -33,6 +33,9 @@ dependencies:
     version: 0.4.0(@trivago/prettier-plugin-sort-imports@4.1.1)(prettier@3.0.0)
 
 devDependencies:
+  cz-git:
+    specifier: ^1.7.1
+    version: 1.7.1
   eslint:
     specifier: ^8.45.0
     version: 8.45.0
@@ -565,6 +568,11 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  /cz-git@1.7.1:
+    resolution: {integrity: sha512-NMe4REukCS7op1YA1jixRXOgII8Um2/Ii8TeyFEOISgp2ZzeobzkMOP8dXSrTQ3bvmm7YpPOdr2301yJkOJcbA==}
+    engines: {node: '>=v12.20.0'}
+    dev: true
 
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
