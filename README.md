@@ -49,7 +49,7 @@ in `tsconfig.json`
 
 in `cz.config.js`
 ```js
-/** @type {import('cz-git').CommitizenGitOptions} */
+/** @type {import('czg').CommitizenGitOptions} */
 module.exports = {
   ...require('@haydenull/fabric/cz'),
   scopes: [/** your scopes */],
