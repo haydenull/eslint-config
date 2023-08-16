@@ -1,5 +1,5 @@
-// https://cz-git.qbb.sh/config/
-/** @type {import('cz-git').CommitizenGitOptions} */
+// https://cz-git.qbb.sh/cli/
+/** @type {import('czg').CommitizenGitOptions} */
 module.exports = {
   alias: { fd: 'docs: fix typos' },
   messages: {

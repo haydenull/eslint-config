@@ -45,23 +45,9 @@ in `tsconfig.json`
 }
 ```
 
-## ![cz-git](https://img.shields.io/badge/cz-git-4B3263?style=for-the-badge&logo=cz-git&logoColor=white) cz-git
+## ![czg](https://img.shields.io/badge/czg-1a2b34?style=for-the-badge&logo=cz-git&logoColor=white) [czg](https://cz-git.qbb.sh/cli/)
 
-1. install commitizen
-```shell
-npm install -g commitizen
-```
-2. in package.json
-```json
-{
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-git"
-    }
-  } 
-}
-```
-3. in `cz.config.js`
+in `cz.config.js`
 ```js
 /** @type {import('cz-git').CommitizenGitOptions} */
 module.exports = {
