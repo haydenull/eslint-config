@@ -47,7 +47,12 @@ in `tsconfig.json`
 
 ## ![czg](https://img.shields.io/badge/czg-1a2b34?style=for-the-badge&logo=cz-git&logoColor=white) [czg](https://cz-git.qbb.sh/cli/)
 
-in `cz.config.js`
+1. global install
+```shell
+npm install -g czg
+```
+
+2.in `cz.config.js`
 ```js
 /** @type {import('czg').CommitizenGitOptions} */
 module.exports = {
