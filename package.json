@@ -1,6 +1,6 @@
 {
   "name": "@haydenull/fabric",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "haydenull's eslint config",
   "main": "index.js",
   "bin": {
