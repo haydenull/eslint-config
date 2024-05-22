@@ -3,7 +3,9 @@ module.exports = {
   plugins: [
     '@trivago/prettier-plugin-sort-imports',
     // https://github.com/tailwindlabs/prettier-plugin-tailwindcss#compatibility-with-other-prettier-plugins
-    'prettier-plugin-tailwindcss', // Must be last
+    'prettier-plugin-tailwindcss',
+    'prettier-plugin-classnames',
+    'prettier-plugin-merge',
   ],
   // https://prettier.io/docs/en/options.html
   singleQuote: true,
