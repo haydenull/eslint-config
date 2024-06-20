@@ -36,7 +36,8 @@ module.exports = {
 1. install [husky](https://typicode.github.io/husky/)
 2. add commit-msg hook
 ```shell
-npx husky add .husky/commit-msg 'npx haydenull-fabric verify-commit'
+# on Linux or Mac
+echo "npx haydenull-fabric verify-commit" > .husky/commit-msg
 ```
 
 ## ![TypeScript](https://img.shields.io/badge/TypeScript-3078c6?style=for-the-badge&logo=typescript&logoColor=white) tsconfig
@@ -90,7 +91,8 @@ pnpm add -D lint-staged
 3. add git hooks
 
 ```shell
-npx husky add .husky/pre-commit 'npx lint-staged'
+# on Linux or Mac
+echo "npx lint-staged" > .husky/pre-commit
 ```
 
 ### type check before commit
@@ -106,7 +108,8 @@ npx husky add .husky/pre-commit 'npx lint-staged'
 2. add git hooks
 
 ```shell
-npx husky add .husky/pre-commit 'npm run typecheck'
+# on Linux or Mac
+echo "npm run typecheck" > .husky/pre-commit
 ```
 
 ### spell check
