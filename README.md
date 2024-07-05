@@ -37,7 +37,7 @@ module.exports = {
 2. add commit-msg hook
 ```shell
 # on Linux or Mac
-echo "npx haydenull-fabric verify-commit" > .husky/commit-msg
+echo "npx haydenull-fabric verify-commit" >> .husky/commit-msg
 ```
 
 ## ![TypeScript](https://img.shields.io/badge/TypeScript-3078c6?style=for-the-badge&logo=typescript&logoColor=white) tsconfig
@@ -92,7 +92,7 @@ pnpm add -D lint-staged
 
 ```shell
 # on Linux or Mac
-echo "npx lint-staged" > .husky/pre-commit
+echo "npx lint-staged" >> .husky/pre-commit
 ```
 
 ### type check before commit
