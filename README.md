@@ -109,7 +109,7 @@ echo "npx lint-staged" >> .husky/pre-commit
 
 ```shell
 # on Linux or Mac
-echo "npm run typecheck" > .husky/pre-commit
+echo "npm run typecheck" >> .husky/pre-commit
 ```
 
 ### spell check
