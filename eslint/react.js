@@ -7,6 +7,7 @@ if (!isTsProject) {
 }
 
 module.exports = {
+  plugins: ['react'],
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -16,5 +17,9 @@ module.exports = {
     'react': {
       version: 'detect',
     },
+  },
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-no-leaked-render': ['error', { validStrategies: ['ternary'] }],
   },
 }
